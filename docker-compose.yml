@@ -5,6 +5,6 @@ services:
       context: .
     volumes:
       - ./:/usr/src/app
-    command: sh -c "cd practice-next-app && npm run dev"
+    command: sh -c "yarn dev"
     ports:
       - "3000:3000"
